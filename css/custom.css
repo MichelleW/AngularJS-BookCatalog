@@ -1,0 +1,44 @@
+body{
+	font-size: 14px;
+	}
+.main{
+	margin-top:55px;
+}
+
+nav .navbar-default{
+	background: transparent;
+}
+h1{
+	color: #4A3C3C;
+}
+ .booklist {
+ 	border-radius: 5px;
+ 	float: left;
+ 	display: inline-block;
+ }
+
+.booklist > a.thumbnail{
+ 	padding: 14px;
+ 	text-decoration: none;
+ }
+.booklist > a.thumbnail > .img-thumbnail{
+		margin-bottom: 10px;
+
+}
+.booklist > a.thumbnail > .img-thumbnail:hover{
+	box-shadow: 0 2px 2px rgba(0,0,0,.25);
+	border-radius:30px;
+}
+
+.title-list div{
+	display: inline-block;
+	float: left;
+}
+
+.search > .input-group{
+	width:288px;
+	margin: 0 0 15px 15px;
+	border-right: 10px;
+
+}
+
